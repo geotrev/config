@@ -1,0 +1,24 @@
+keybind = ctrl+shift+o=new_split:right 
+keybind = ctrl+shift+e=new_split:down 
+keybind = ctrl+alt+arrow_left=goto_split:left 
+keybind = ctrl+alt+arrow_down=goto_split:down 
+keybind = ctrl+alt+arrow_right=goto_split:right 
+keybind = ctrl+alt+arrow_up=goto_split:up 
+
+keybind = alt+1=goto_tab:1 
+keybind = alt+2=goto_tab:2 
+keybind = alt+3=goto_tab:3 
+keybind = alt+4=goto_tab:4 
+keybind = alt+5=goto_tab:5 
+keybind = alt+6=goto_tab:6 
+keybind = alt+7=goto_tab:7 
+keybind = alt+8=goto_tab:8
+keybind = alt+9=last_tab 
+keybind = alt+digit_1=goto_tab:1 
+keybind = alt+digit_2=goto_tab:2 
+keybind = alt+digit_3=goto_tab:3 
+keybind = alt+digit_4=goto_tab:4 
+keybind = alt+digit_5=goto_tab:5 
+keybind = alt+digit_6=goto_tab:6 
+keybind = alt+digit_7=goto_tab:7 
+keybind = alt+digit_8=goto_tab:8 
