@@ -1,17 +1,13 @@
-export ZSH="${HOME}/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
-# Theme
-ZSH_THEME="spaceship"
-export SPACESHIP_DIR_TRUNC=0
+ZSH_THEME="Soliah"
 
-# Plugins
 plugins=(git)
 
-# Aliases
+source $ZSH/oh-my-zsh.sh
+
 alias amcm="git commit --amend --no-edit"
 alias fopu="git push -f origin"
 alias gpo="git push -u origin HEAD"
 alias so="source ~/.zshrc"
-
-# OMZ
-source $ZSH/oh-my-zsh.sh
+alias vim=nvim
