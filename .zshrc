@@ -1,5 +1,6 @@
 # theme
 
+# ZSH_THEME="agnoster"
 ZSH_THEME="Soliah"
 
 # alias
