@@ -1,5 +1,5 @@
 command = /bin/zsh
-theme = Black Metal
+theme = Argonaut
 font-family = "FiraCode Nerd Font"
 
 keybind = ctrl+shift+o=new_split:right 
