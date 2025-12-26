@@ -1,5 +1,5 @@
 command = /bin/zsh
-theme = Argonaut
+theme = Atom
 font-family = "FiraCode Nerd Font"
 
 keybind = ctrl+shift+o=new_split:right 
