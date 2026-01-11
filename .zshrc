@@ -1,17 +1,12 @@
 # theme
 
-# ZSH_THEME="agnoster"
-ZSH_THEME="Soliah"
+ZSH_THEME="agnoster"
+# ZSH_THEME="Soliah"
 
-# alias
+# misc
 
-alias amcm="git commit --amend --no-edit"
-alias fopu="git push -f origin"
-alias gpo="git push -u origin HEAD"
+alias vim="nvim"
 alias so="source ~/.zshrc"
-alias vim=nvim
-
-# functions
 
 function tree() {
   if command -v lsd >/dev/null 2>&1; then
@@ -19,3 +14,13 @@ function tree() {
     return
   fi
 }
+
+# git
+
+alias amcm="git commit --amend --no-edit"
+alias fopu="git push -f origin"
+alias gpo="git push -u origin HEAD"
+
+# term status
+
+fastfetch
