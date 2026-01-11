@@ -10,7 +10,7 @@ alias so="source ~/.zshrc"
 
 function tree() {
   if command -v lsd >/dev/null 2>&1; then
-    lsd --ignore-glob node_modules --tree $1 | less
+    lsd --ignore-glob node_modules --tree $1
     return
   fi
 }
